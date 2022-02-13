@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+nav {
+    background-color: rgb(100, 207, 184);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+}
+
+nav ul {
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+
+nav .logo {
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+#home{
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+#home #myimg{
+    width: 230px;
+    margin-top: 100px;
+}
+
+#home h1 {
+    margin-top: 15px;
+}
+
+#home p {
+    width: 50%;
+    text-align: center;
+    margin-top: 30px;
+    color: #707070;
+}
+
+#home #wave{
+    position: absolute;
+    bottom: 0;
+    width : 100%; 
+}
+
+#contactMe {
+    background-color: rgb(64, 207, 176);
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#contactMe .box  {
+    background-color: white;
+    width:710px;
+    height: 410px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#contactMe h1{
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+#contactMe .box img {
+    width : 260px;
+}
+
+#contactMe .box .social_email{
+    width:300px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#contactMe .box .social_email .socialIcons{
+    display: flex;
+    width : 100%; 
+    justify-content: space-around;
+}
+
+#contactMe .box .social_email .socialIcons a .fab {
+    font-size: 60px;
+}
+
+#contactMe .box .social_email .socialIcons a .fa-linkedin-in{
+    color: rgb(34, 31, 202);
+}
+
+#contactMe .box .social_email .socialIcons a .fa-twitter{
+    color: rgb(9, 144, 255);
+}
+
+#contactMe .box .social_email .email{
+    font-size: 20px;
+    font-weight: bold;
+}
